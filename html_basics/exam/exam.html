@@ -1,0 +1,123 @@
+<html>
+
+<head>
+  <style>
+    body {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      background: #0288b2;
+      background: linear-gradient(to top right, #036565, #0288b2);
+    }
+
+    .container {
+      width: 100vw;
+      height: 100%;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-align-items: center;
+      align-items: center;
+      -ms-justify-content: center;
+      justify-content: center;
+    }
+
+    .article {
+      font-family: Arial, Helvetica, sans-serif;
+      height: 250px;
+      width: 500px;
+      border-radius: 10px;
+      background-color: white;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-align-items: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .article-title {
+      color: #12645F;
+      font-weight: bold;
+      font-size: larger;
+    }
+
+    .article-date {
+      color: #0c899a;
+      font-size: small;
+    }
+
+    .article-image {
+      height: 100%;
+      width: 40%;
+      overflow: hidden;
+    }
+
+    .article-body {
+      height: 100%;
+      width: 60%;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-justify-content: space-between;
+      justify-content: space-between;
+    }
+
+    .article-text {
+      margin: 15px;
+    }
+
+    .article-description {
+      color: dimgray;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .article-actions {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-justify-content: flex-start;
+      justify-content: flex-start;
+      font-size: large;
+    }
+
+    .article-button {
+      background-color: #0084b3;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      margin-left: 15px;
+      margin-bottom: 15px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="article">
+      <img src="https://assets.dockyard.com/images/Laptop%20with%20video%20call%20and%20code%20on%20the%20screen.jpg"
+        class="article-image">
+      <div class="article-body">
+        <div class="article-text">
+          <div class="article-title">React with Django App</div>
+          <div class="article-date">1 day ago</div>
+          <div class="article-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt qua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</div>
+        </div>
+        <div class="article-actions">
+          <button class="article-button">Read Article</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
